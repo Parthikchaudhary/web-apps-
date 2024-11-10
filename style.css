@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Verdana, sans-serif;
+	margin: auto;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	overflow: auto;
+	background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+	animation: gradient 15s ease infinite;
+	background-size: 400% 400%;
+	background-attachment: fixed;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}
+
+.wave {
+	background: rgb(255 255 255 / 25%);
+	border-radius: 1000% 1000% 0 0;
+	position: fixed;
+	width: 200%;
+	height: 12em;
+	animation: wave 10s -3s linear infinite;
+	transform: translate3d(0, 0, 0);
+	opacity: 0.8;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+	bottom: -1.25em;
+	animation: wave 18s linear reverse infinite;
+	opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+	bottom: -2.5em;
+	animation: wave 20s -1s reverse infinite;
+	opacity: 0.9;
+}
+
+@keyframes wave {
+	2% {
+		transform: translateX(1);
+	}
+
+	25% {
+		transform: translateX(-25%);
+	}
+
+	50% {
+		transform: translateX(-50%);
+	}
+
+	75% {
+		transform: translateX(-25%);
+	}
+
+	100% {
+		transform: translateX(1);
+	}
+}
+
+
+.mst{
+	background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+}
+
+.alsoef{
+	background: rgba(0, 0, 0, 0.3);
+	font-family: 'Sofia';
+	font-size: 22px;
+
+}
+
+#container {
+	Center the text in the viewport. */
+	position: relative;
+	margin: auto;	
+	color: white;
+	margin-top: 70px;
+	/* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
+	filter: url(#threshold) blur(0.6px);
+}
+
+/* Your average text styling */
+#text1, #text2 {
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	
+	text-align: center;
+
+	img {
+		width: 100%;
+		object-fit: cover;
+		height: 100%;
+	}
+	@media (min-width: 1200px) and (max-width: 1441px) {
+		max-width: 1250px;
+		padding: 0px 36px;
+	}
+	@media (max-width: 767px) {
+		padding: 0px 30px;
+	}
+	@media (max-width: 479px) {
+		padding: 0px 30px 0px 20px;
+	}
+}
+
+
+
+
+.mas ul {
+	margin-top: 130px;
+	text-align: center;
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.mas ul li {
+	list-style: none;
+}
+
+.mas ul li a {
+	width: 80px;
+	height: 80px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 80px;
+	font-size: 35px;
+	margin: 0 10px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #fff;
+	z-index: 1;
+}
+
+.mas ul li a .icon {
+	position: relative;
+	color: #262626;
+	transition: .5s;
+	z-index: 3;
+}
+
+.mas ul li a:hover .icon {
+	color: #fff;
+	transform: rotateY(360deg);
+}
+
+.mas ul li a:before {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: .5s;
+	z-index: 2;
+}
+
+.mas ul li a:hover:before {
+	top: 0;
+}
+
+.mas ul li:nth-child(1) a:before{
+	background: #3b5999;
+}
+
+.mas ul li:nth-child(2) a:before{
+	background: #55acee;
+}
+
+.mas ul li:nth-child(3) a:before {
+	background: #0077b5;
+}
+
+.mas ul li:nth-child(4) a:before {
+	background: #dd4b39;
+}
+
+.cols{
+	margin-top: 230px;
+}
+
+@media (max-width: 576px) {
+	.mas ul li a {
+		width: 50px;
+		height: 50px;
+		font-size: 20px;
+		line-height: 45px;
+		margin-top: 80px;
+	}
+
+	#parthik{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	h4{
+		text-align: center;
+	}
+	
+}
+
+.parimg img{
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+h5{
+	color: #eaeaea;
+}
+
+
+.title{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	padding-top: 20px;
+
+}
+
+
+.mme{
+	background:
+	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
+	transition: all 0.3s ease-in-out;
+	border: none;
+	outline: none;
+
+}
+.mme:hover{
+	transform: scale(1.1);
+	background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+	letter-spacing: 1px;
+
+}
+
+.maksnf{
+	background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.alsoedr{
+	background: gray;
+	padding: 4px;
+	border-bottom-right-radius: 10px;
+}
+
+.hjhhj{
+	margin-top: 100px;
+}

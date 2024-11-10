@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+		<div class="wave"></div>
+	</div>
+	<nav class="navbar navbar-expand-lg fixed-top alsoef shadow">
+		<div class="container-fluid">
+			<a class="navbar-brand text-light fs-3 ms-5" href="#">Parth<span class="text-warning fs-3">ik</span></a>
+			<button class="navbar-toggler me-3 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="bi bi-menu-button text-light shadow"></i>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav me-5 text-center">
+					<li class="nav-item">
+						<a class="nav-link text-light" href="#Home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" href="#abouts">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" href="#Skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link  text-light" href="#projects">Project</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="Home">
+		<div class="container mt-5">
+			<div class="justify-content-center pt-5">
+				<h1 class="pt-5 text-center text-light mmm"  data-aos="fade-down"
+				data-aos-easing="linear"
+				data-aos-duration="1500">Hey, I'm Parthik Choudhary !!</h1>
+				<!-- Explanation in JS tab -->
+
+				<!-- The two texts -->	
+				<div id="container">
+					<span id="text1"></span>
+					<span id="text2"></span>
+				</div>
+
+				<!-- The SVG filter used to create the merging effect -->
+				<svg id="filters">
+					<defs>
+						<filter id="threshold">
+							<!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+							<feColorMatrix in="SourceGraphic"
+							type="matrix"
+							values="1 0 0 0 0
+							0 1 0 0 0
+							0 0 1 0 0
+							0 0 0 255 -140" />
+						</filter>
+					</defs>
+				</svg>
+			</div>	
+			<div class="container mas">
+				<ul>
+					<li>
+						<a href="https //facebook.com login">
+							<i class="fab fa-facebook-f icon"></i></a>
+						</li>
+						<li>
+							<a href="https://twitter.com/"><i class="fab fa-twitter icon"></i></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/parthik-shokhanda-9a145730b/"><i class="fab fa-linkedin-in icon"></i></a></li>
+							<li>
+								<a href="https://x.com/i/flow/login?redirect_after_login=%2Fhome"><i class="fab fa-google-plus-g icon"></i></a></li>
+							</ul>
+						</div>
+						<section id="abouts">
+							<div class="container cols pt-5">
+								<span class="text-white fs-2 ms-4 border-bottom border-danger border-5">About Me</span>
+								<div class="row mt-3 p-3">
+									<div class="col-md-7 ">
+										<h4 data-aos="fade-down"
+										data-aos-easing="linear"
+										data-aos-duration="2000">🚀 Elevating Digital Experiences with Innovation and Expertise 🚀</h4>
+										<h5  data-aos="fade-up"
+										data-aos-duration="1000">Hello👋🏼, Parthik Choudhary this side, An enthusiastic frontend developer with 1 years of hands-on experience in crafting awesome web designning and web apps. My expertise lies in Javascript, React Js, and Next Js, Node JS.</h5>
+										<h5  data-aos="fade-up"
+										data-aos-duration="3000">Beyond just coding, I've led teams through intricate challenges, emphasizing collaboration and high coding standards. I ensure that our solutions are not only functional but also easy to maintain.🛠️</h5>
+										<h5  data-aos="fade-up"
+										data-aos-duration="3000">I am dedicated to providing the best possible solutions, tailoring my work to meet client requirements. Taking ownership of my projects, I build each one as if it were my own, ensuring a level of commitment that goes beyond expectations. 🔥
+									</h5>
+									<h5 data-aos="fade-left"
+									data-aos-anchor="#example-anchor"
+									data-aos-offset="500"
+									data-aos-duration="500">Let's connect and collaborate to bring your ideas to life!💬</h5>
+								</div>
+								<div class="col-md-5 text-center mt-5">
+									<div class="parimg ms-4">
+										<img src="parthik.png.jpg" alt="" id="parthik">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="Skills">
+					<div class="container mt-5">
+						<h3 class="text-center  pt-5 fs-1 text-light"data-aos="fade-zoom-in"
+						data-aos-easing="ease-in-back"
+						data-aos-delay="300"
+						data-aos-offset="0">My Technical <span class="text-warning">Skills</span></h3>
+						<hr>
+						<div class="row justify-content-around">
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/main/images/figma.png" alt="" style="width: 100%;" >
+										<div class="title">Figma</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/main/images/html.png" alt="" style="width: 100%;" >
+										<div class="title">HTML</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/main/images/css.png" alt="" style="width: 100%;" >
+										<div class="title">CSS</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body">
+									<div class="img-fluid p-3">
+										<img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="" style="width: 100%;" >
+										<div class="title">Bootstrap</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/main/images/js.png" alt="" style="width: 100%;" >
+										<div class="title d-flex">JavaScript</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-around">
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://ojas-portfolio-a578.vercel.app/assets/react-cccfc4c7.png" alt="" style="width: 100%;" >
+										<div class="title">React JS</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://react-redux.js.org/img/redux.svg" alt="" style="width: 100%;" >
+										<div class="title d-flex">Redux JS</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://nestjs.com/logo-small-gradient.d792062c.svg" alt="" style="width: 100%;" >
+										<div class="title">Next JS</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://code-maven.com/img/node.png" alt="" style="width: 100%;">
+										<div class="title">Node JS</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5 rounded-0 shadow-lg mme" style="width: 180px; height: 180px;">
+								<div class="card-body p-4">
+									<div class="img-fluid p-3">
+										<img src="https://ojas-portfolio-a578.vercel.app/assets/chakra-ui-3bdf1131.png" alt="" style="width: 100%;">
+										<div class="title mt-3">UI</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="projects">
+					<div class="container hjhhj">
+						<span class="fs-1 text-light border-bottom border-danger border-4 ms-4">Project</span>
+						<div class="row justify-content-around p-4">
+							<div class="card shadow maksnf mt-5 border-0"data-aos="zoom-in" style="width: 500px;">
+								<div class="card-body p-0">
+									<div class="row">
+										<div class="col-md-6 mt-2">
+											<span class=" alsoedr position-absolute ">2024</span>
+											<img src="https://adn-static2.nykaa.com/media/wysiwyg/beautybook_2img.jpg" alt="" width="100%" class="rounded rounded-3">
+											<a class="nav-link fs-4 border border-1 mt-3 rounded rounded-5 border-dark text-center" href="Nyaka.html">Visit</a>
+										</div>
+										<div class="col-md-6 mt-3">
+											<span class="text-dark fs-5">❤️Nykaa Beauty</span>
+											<p class="p-3 text-light">That's why we have built an extensive range of products that go beyond fulfilling your needs - they are curated to satisfy your desires and soothe your senses. &
+											html,css, bootstrap</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card shadow maksnf mt-5 border-0"data-aos="zoom-in" style="width: 500px;">
+								<div class="card-body p-0">
+									<div class="row">
+										<div class="col-md-6 mt-2">
+											<span class=" alsoedr position-absolute ">2024</span>
+											<img src="https://bellavitaorganic.com/cdn/shop/files/Tiger-10_1_2_1.jpg?v=1720330847&width=300" alt="" width="100%" height="180px" class="rounded rounded-3">
+											<a class="nav-link fs-4 border border-1 mt-3 rounded rounded-5 border-dark text-center" href="BELLATIVE.html">Visit</a>
+										</div>
+										<div class="col-md-6 mt-3">
+											<span class="text-dark fs-5">❤️BELLAVITA</span>
+											<p class="p-0 text-light p-3">BELLAVITA is a fragrance-forward brand that creates world-class luxury perfumes, bath and body products and skincare that feel good and smell even better.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card shadow maksnf mt-5 border-0"data-aos="zoom-in" style="width: 500px;">
+								<div class="card-body p-0">
+									<div class="row">
+										<div class="col-md-6 mt-2">
+											<span class=" alsoedr position-absolute ">2024</span>
+											<img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=400" alt="" width="100%" height="230px" class="rounded rounded-3">
+											<a class="nav-link fs-4 border border-1 mt-3 rounded rounded-5 border-dark text-center" href="Education.html">Visit</a>
+										</div>
+										<div class="col-md-6 mt-3">
+											<span class="text-dark fs-5">❤️Education</span>
+											<p class="p-0 text-light p-3">Education is the transmission of knowledge, skills, and character traits and manifests in various forms. Formal education occurs within a structured institutional framework, such as public schools, following a curriculum. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card shadow maksnf mt-5 border-0" data-aos="zoom-in" style="width: 500px;">
+								<div class="card-body p-0">
+									<div class="row">
+										<div class="col-md-6 mt-2">
+											<span class=" alsoedr position-absolute ">2024</span>
+											<img src="https://images.pexels.com/photos/29097920/pexels-photo-29097920/free-photo-of-contemplative-solitude-on-armenian-clifftop.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="100%" height="230px" class="rounded rounded-3">
+											<a class="nav-link fs-4 border border-1 mt-3 rounded rounded-5 border-dark text-center" href="template.html">Visit</a>
+										</div>
+										<div class="col-md-6 mt-3">
+											<span class="text-dark fs-5">❤️Fashion PRO</span>
+											<p class="p-0 text-light p-3">Fashion is a term used interchangeably to describe the creation of clothing, footwear, accessories, cosmetics, and jewellery of different cultural aesthetics and their mix and match into outfits that depict distinctive ways of dressing as signifiers of social status.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="now">
+					<div class="container-fluid bg-dark mt-5">
+						<div class="row justify-content-center text-light p-4">
+							<div class="col-md-3"data-aos="fade-down"
+							data-aos-easing="linear"
+							data-aos-duration="1500">
+							<h4>Link</h4>
+							<div class="also"></div>
+							<i class="bi bi-chevron-bar-right"></i>
+							<p class="d-inline-flex"> Home</p>
+							<div class="">
+								<i class="bi bi-chevron-bar-right"></i>
+								<p class="d-inline-flex"> About</p>
+							</div>
+							<i class="bi bi-chevron-bar-right"></i>
+							<p class="d-inline-flex">Skills</p>
+							<div class="">
+								<i class="bi bi-chevron-bar-right"></i>
+								<p class="d-inline-flex">Projects</p>
+							</div>
+							<i class="bi bi-chevron-bar-right"></i>
+
+							<p class="d-inline-flex">contact</p>
+						</div>
+						<div class="col-md-3" data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="1500">
+						<h4>Contact Us</h4>
+						<div class="also">
+
+						</div>
+
+						<i class="bi bi-phone-flip"></i>
+						<p class="d-inline-flex"> parthik shokhanda, <br> kharak , Bijnor(UP)-246701</p>
+						<div class="">
+							<i class="bi bi-envelope-check"></i>
+							<p class="d-inline-flex"> parthikshokhanda@gamil.com</p>
+						</div>
+						<i class="bi bi-telephone-forward-fill"></i>
+
+						<p class="d-inline-flex">7906253896</p>
+					</div>
+					<div class="col-md-3" data-aos="fade-down"
+					data-aos-easing="linear"
+					data-aos-duration="1500">
+					<h4 class="mb-5">Feel free to reach out!</h4>
+					<i class="bi bi-facebook shadow p-2 border border-light"></i>
+					<i class="bi bi-messenger p-2 border border-light"></i>
+					<i class="bi bi-whatsapp p-2 border border-light"></i>
+					<i class="bi bi-twitter p-2 border border-light"></i>
+					<i class="bi bi-instagram p-2 border border-light"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="container">
+		<a href="#Home" class="fixed-bottom ms-5"><i class="bi bi-arrow-bar-up fs-2 text-dark  bg-white p-2 rounded rounded-5"></i></a>
+	</div>
+</body>
+</html>
+<script src="javascript.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>

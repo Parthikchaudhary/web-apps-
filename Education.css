@@ -1,0 +1,120 @@
+.carousel-caption{
+	position: absolute;
+	top: 30%;
+}
+.mainaly{
+	position: relative;
+	margin-top: -120px;
+}
+.faq{
+	font-size: 18px;
+}
+
+.faq h2{
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.account{
+	margin-right: 30px;
+}
+
+.account li{
+	list-style: none;
+	width: 100%;
+	padding: 5px;
+}
+
+.account li label{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 500;
+	background: black;
+	margin-bottom: 2px;
+	cursor: pointer;
+	position: relative;
+	border-radius: 20px;
+}
+
+label::after{
+	content: '+';
+	font-size: 34px;
+	position: absolute;
+	right: 20px;
+	transition: transform 0.5s;
+}
+
+input[type="radio"]{
+	display: none;
+}
+
+.account .account2{
+	background: white;
+	text-align: left;
+	padding: 0 20px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s, padding 0.5s;
+}
+
+.account input[type="radio"]:checked + label + .account2{
+	max-height: 600px;
+	padding: 30px 20px;
+}
+
+
+.account input[type="radio"]:checked + label::after{
+	transform: rotate(135deg);
+
+}
+
+
+.faq .email-signup{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+
+.faq small{
+	font-size: 13px;
+}
+
+.off{
+	background: #d4d8d8;
+}
+
+.poll{
+	background: blue;
+	padding: 10px 20px;
+	font-size: 30px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px ;
+	border-bottom-left-radius: 20px;
+	color: white;
+	position: relative;
+	top: -15px;
+}
+
+.logo{
+	position: relative;
+	top: -6px;
+	font-size: 20px;
+	color: black;
+}
+
+.most{
+	padding-top: 100px;
+	background: #a3a3a3;
+	color: white;
+}
+
+.sopu{
+	background:#a3a3a3 ;
+}
+
+body{
+	font-family: "Trirong", serif;
+}
